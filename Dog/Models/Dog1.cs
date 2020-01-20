@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Dog.Models
 {
-    public class Dog
+    public class Dog1
     {
         public string Name { get; set; }
         public DateTime DateOfBirth { get; set; }
