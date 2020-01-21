@@ -1,0 +1,25 @@
+﻿@model Dog1
+@{
+    ViewData["Title"] = "Model Binding for Dog";
+}
+
+    <h1>Model Binding for Dog</h1>
+
+    <form method="post">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+        <br />
+
+        <label asp-for="DateOfBirth"></label>
+        <input asp-for="DateOfBirth" />
+        <span asp-validation-for="DateOfBirth"></span>
+        <br />
+
+        <label asp-for="Breed"></label>
+        <input asp-for="Breed" />
+        <span asp-validation-for="Breed"></span>
+        <br />
+
+        <input type="submit" value="Create Dog" />
+    </form>
